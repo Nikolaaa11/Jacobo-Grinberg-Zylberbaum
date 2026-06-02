@@ -1,0 +1,40 @@
+# dependencias
+/node_modules
+/.pnp
+.pnp.js
+
+# next
+/.next/
+/out/
+next-env.d.ts
+
+# producción
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# entorno
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# PDFs: se sirven desde Google Drive, no se versionan
+public/libros/*.pdf
+.start.log
+
+# Intermedios de OCR (solo versionamos data/corpus.json)
+data/ocr/
+
+.vercel

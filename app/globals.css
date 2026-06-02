@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: #ffffff;
+  color: #1d1d1f;
+  line-height: 1.6;
+}
+
+::selection {
+  background: #cdeed4;
+  color: #1d1d1f;
+}
+
+/* Scrollbar sutil estilo Apple */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d7d7dc;
+  border-radius: 9999px;
+  border: 2px solid #ffffff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b9b9c0;
+}
+
+@layer components {
+  .btn-verde {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-verde px-6 py-3 text-sm font-semibold text-white shadow-apple transition-all duration-200 hover:bg-verde-deep hover:shadow-apple-lg active:scale-[0.98];
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-hair bg-white px-6 py-3 text-sm font-semibold text-ink transition-all duration-200 hover:bg-mist active:scale-[0.98];
+  }
+  .card {
+    @apply rounded-3xl border border-hair bg-white shadow-apple transition-all duration-300;
+  }
+  .card-hover {
+    @apply hover:-translate-y-1 hover:shadow-apple-lg;
+  }
+  .tag {
+    @apply inline-flex items-center rounded-full bg-verde-mint px-3 py-1 text-xs font-medium text-verde-deep;
+  }
+  .prose-grin p {
+    @apply mb-4 text-[17px] leading-relaxed text-ink/85;
+  }
+}

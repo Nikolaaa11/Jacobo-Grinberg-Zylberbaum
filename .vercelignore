@@ -1,0 +1,4 @@
+# Los PDFs se sirven desde Google Drive, no se despliegan.
+public/libros/*.pdf
+*.pdf
+.start.log
