@@ -7,6 +7,7 @@ import {
   ArrowRight,
   Layers,
   Route,
+  Moon,
 } from "lucide-react";
 import { LIBROS, TEMAS, CONCEPTOS, type TemaId } from "@/data/libros";
 import { RUTAS } from "@/data/rutas";
@@ -207,6 +208,33 @@ export default function Home() {
             </SectionReveal>
           ))}
         </div>
+      </section>
+
+      {/* DESTACADO: VIAJE ASTRAL */}
+      <section className="mx-auto max-w-page px-5 pt-20">
+        <SectionReveal>
+          <Link
+            href="/viaje-astral"
+            className="card card-hover flex flex-col items-start gap-6 overflow-hidden p-8 md:flex-row md:items-center md:p-10"
+          >
+            <span className="flex h-16 w-16 flex-none items-center justify-center rounded-3xl bg-verde-mint text-verde-deep">
+              <Moon className="h-8 w-8" />
+            </span>
+            <div className="flex-1">
+              <span className="tag mb-2">Sección especial</span>
+              <h2 className="text-2xl font-bold tracking-tightish text-ink md:text-3xl">
+                ¿Cómo puedo pasar mi cuerpo a astral?
+              </h2>
+              <p className="mt-2 max-w-2xl text-subtle">
+                El "doble", el potencial transferido y la percepción no local:
+                el fundamento sintérgico y una guía práctica paso a paso.
+              </p>
+            </div>
+            <span className="btn-verde flex-none">
+              Explorar <ArrowRight className="h-4 w-4" />
+            </span>
+          </Link>
+        </SectionReveal>
       </section>
 
       {/* CTA ASISTENTE */}

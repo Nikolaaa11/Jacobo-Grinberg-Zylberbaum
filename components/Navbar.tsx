@@ -10,6 +10,7 @@ const NAV = [
   { href: "/biblioteca", label: "Biblioteca" },
   { href: "/ensenanzas", label: "Enseñanzas" },
   { href: "/tecnicas", label: "Técnicas" },
+  { href: "/viaje-astral", label: "Viaje astral" },
   { href: "/conceptos", label: "Conceptos" },
   { href: "/sobre-jacobo", label: "Sobre Jacobo" },
 ];

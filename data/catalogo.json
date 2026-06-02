@@ -1014,7 +1014,32 @@
       "El desdoblamiento se relaciona con la percepción y acción a través del campo.",
       "Lo que la tradición llama 'doble', la teoría sintérgica lo lee como fenómeno de campo."
     ],
-    "tecnicas": [],
+    "tecnicas": [
+      {
+        "nombre": "Relajación para el desdoblamiento",
+        "duracion": "20 min",
+        "nivel": "Intermedio",
+        "pasos": [
+          "Acuéstate boca arriba, en un lugar tranquilo, y respira lento y profundo.",
+          "Recorre el cuerpo de pies a cabeza soltando cada zona hasta dejar de sentir su peso.",
+          "Deja que el esquema corporal se difumine: ya no hay bordes claros del cuerpo.",
+          "Permanece en ese umbral entre la vigilia y el sueño, plenamente consciente."
+        ]
+      },
+      {
+        "nombre": "Salida del doble (proyección)",
+        "duracion": "15–30 min",
+        "nivel": "Avanzado",
+        "pasos": [
+          "Partiendo de la relajación total, recuerda que el yo es una idea: suelta la autorreferencia.",
+          "Unifica la atención en un solo campo (aumenta tu sintergia).",
+          "Expande la sensación de espacio más allá de los límites del cuerpo.",
+          "Desplaza el punto desde el que percibes hacia un lugar fuera del cuerpo (un rincón de la sala).",
+          "Si surgen vibraciones o sensación de flotar, no te asustes ni te aferres: deja que ocurra.",
+          "Explora con suavidad y regresa siempre despacio, sintiendo de nuevo el cuerpo físico."
+        ]
+      }
+    ],
     "conceptos": [
       "comunicacion-sintergica",
       "campo-neuronal",
