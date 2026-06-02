@@ -11,6 +11,7 @@ type Fuente = { slug: string; titulo: string };
 
 const SUGERENCIAS = [
   "¿Qué es la Teoría Sintérgica?",
+  "¿Cómo puedo pasar mi cuerpo a astral?",
   "Guíame en una meditación auto-alusiva",
   "¿Quién fue Pachita?",
   "Explica qué es el lattice",
