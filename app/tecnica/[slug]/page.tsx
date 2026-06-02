@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Clock, BookOpen } from "lucide-react";
+import { Clock, BookOpen } from "lucide-react";
 import { todasLasTecnicas, getTecnica } from "@/data/libros";
 import { SesionTecnica } from "@/components/SesionTecnica";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export function generateStaticParams() {
   return todasLasTecnicas().map((t) => ({ slug: t.slug }));
@@ -19,12 +20,9 @@ export default function TecnicaPage({ params }: { params: { slug: string } }) {
 
   return (
     <div className="mx-auto max-w-3xl px-5 py-10">
-      <Link
-        href="/tecnicas"
-        className="mb-8 inline-flex items-center gap-1.5 text-sm font-medium text-subtle hover:text-ink"
-      >
-        <ArrowLeft className="h-4 w-4" /> Técnicas
-      </Link>
+      <Breadcrumbs
+        items={[{ href: "/tecnicas", label: "Técnicas" }, { label: t.nombre }]}
+      />
 
       <div className="flex flex-wrap items-center gap-2 text-xs">
         <span className="inline-flex items-center gap-1 rounded-full bg-mist px-3 py-1 text-subtle">

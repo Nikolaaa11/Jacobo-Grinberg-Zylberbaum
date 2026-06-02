@@ -34,7 +34,9 @@
       "campo-neuronal",
       "teoria-sintergica",
       "percepcion-realidad",
-      "experiencia-unitaria"
+      "experiencia-unitaria",
+      "hipercampo",
+      "neuroalgoritmizacion"
     ],
     "paginas": 84
   },
@@ -293,13 +295,14 @@
       "sintergia"
     ],
     "pdf": "9- La Teoría Sintégica.pdf",
-    "resumen": "Exposición central del sistema de pensamiento de Grinberg. La Teoría Sintérgica propone que existe una estructura fundamental no espacial (el 'lattice') de la cual el cerebro extrae, mediante su campo neuronal, la realidad percibida. La conciencia y la unidad surgen al aumentar la 'sintergia' (síntesis + energía: orden y coherencia).",
+    "resumen": "Síntesis mayor de su sistema, publicada por el INPEC (Instituto Nacional Para el Estudio de la Conciencia). Grinberg expone la estructura del espacio (la Lattice), el Campo Neuronal y su estructura, y cómo la experiencia surge de la interacción entre ambos. Desarrolla los Orbitales de la Conciencia, el Factor de Direccionalidad y la noción de Hipercampo —la Lattice que incluye a todos los campos neuronales—, para culminar en la Unidad.",
     "ensenanzas": [
-      "Existe un lattice: una matriz informacional fundamental que subyace al espacio-tiempo.",
-      "El cerebro posee un campo neuronal que interactúa con el lattice y produce la percepción.",
-      "Sintergia = grado de coherencia/orden; a mayor sintergia, percepción más unitaria.",
-      "La realidad cotidiana es una 'des-sintergización' del lattice unitario.",
-      "La experiencia mística es la percepción directa del lattice con mínima distorsión."
+      "La realidad nace de la interacción entre el Campo Neuronal del cerebro y la Lattice del espacio.",
+      "La Lattice es una estructura fundamental; en sus zonas de convergencia total no hay objetos, y donde hay distorsiones locales la percepción detecta objetos.",
+      "El Hipercampo es la Lattice entendida como el campo que contiene en su seno a todos los campos neuronales.",
+      "La sintergia de un campo neuronal depende de su capacidad de neuroalgoritmización.",
+      "La conciencia se despliega en niveles u orbitales, modulados por un factor de direccionalidad.",
+      "El término de la obra es la Unidad: la percepción directa de la Lattice sin distorsión."
     ],
     "tecnicas": [
       {
@@ -318,8 +321,11 @@
       "teoria-sintergica",
       "lattice",
       "campo-neuronal",
+      "hipercampo",
+      "orbitales-conciencia",
+      "factor-direccionalidad",
+      "neuroalgoritmizacion",
       "sintergia",
-      "estructura-primaria",
       "experiencia-unitaria"
     ],
     "paginas": 49
@@ -482,7 +488,9 @@
       "teoria-sintergica",
       "lattice",
       "estructura-primaria",
-      "percepcion-realidad"
+      "percepcion-realidad",
+      "hipercampo",
+      "orbitales-conciencia"
     ],
     "paginas": 242
   },
@@ -850,7 +858,8 @@
       "teoria-sintergica",
       "estructura-primaria",
       "percepcion-realidad",
-      "campo-neuronal"
+      "campo-neuronal",
+      "neuroalgoritmizacion"
     ],
     "paginas": 87
   },

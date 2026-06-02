@@ -23,6 +23,7 @@ export function Footer() {
             <div>
               <h4 className="font-semibold text-ink">Explorar</h4>
               <ul className="mt-3 space-y-2 text-subtle">
+                <li><Link href="/rutas" className="hover:text-ink">Rutas de lectura</Link></li>
                 <li><Link href="/biblioteca" className="hover:text-ink">Biblioteca</Link></li>
                 <li><Link href="/ensenanzas" className="hover:text-ink">Enseñanzas</Link></li>
                 <li><Link href="/tecnicas" className="hover:text-ink">Técnicas</Link></li>

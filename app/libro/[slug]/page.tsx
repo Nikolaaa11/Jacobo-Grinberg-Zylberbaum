@@ -1,13 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  ArrowLeft,
-  Lightbulb,
-  Sparkles,
-  Compass,
-  Clock,
-  ChevronRight,
-} from "lucide-react";
+import { Lightbulb, Sparkles, Compass, Clock, ChevronRight } from "lucide-react";
 import {
   LIBROS,
   TEMAS,
@@ -17,6 +10,7 @@ import {
 } from "@/data/libros";
 import { BookCover } from "@/components/BookCover";
 import { PDFViewer } from "@/components/PDFViewer";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export function generateStaticParams() {
   return LIBROS.map((l) => ({ slug: l.slug }));
@@ -39,12 +33,9 @@ export default function LibroPage({ params }: { params: { slug: string } }) {
 
   return (
     <article className="mx-auto max-w-page px-5 py-10">
-      <Link
-        href="/biblioteca"
-        className="mb-8 inline-flex items-center gap-1.5 text-sm font-medium text-subtle hover:text-ink"
-      >
-        <ArrowLeft className="h-4 w-4" /> Biblioteca
-      </Link>
+      <Breadcrumbs
+        items={[{ href: "/biblioteca", label: "Biblioteca" }, { label: libro.titulo }]}
+      />
 
       {/* Cabecera */}
       <div className="grid gap-8 md:grid-cols-[220px_1fr]">

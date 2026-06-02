@@ -139,6 +139,30 @@ export const CONCEPTOS: Concepto[] = [
     definicion:
       "Bárbara Guerrero (Pachita), curandera mexicana cuyas 'cirugías psíquicas' Grinberg estudió como fenómeno que desafía el marco científico ortodoxo.",
   },
+  {
+    slug: "hipercampo",
+    nombre: "Hipercampo",
+    definicion:
+      "Término de la Teoría Sintérgica para la Lattice entendida como el campo que incluye en su seno a todos los campos neuronales. Es el nivel más englobante de la estructura del espacio.",
+  },
+  {
+    slug: "orbitales-conciencia",
+    nombre: "Orbitales de la conciencia",
+    definicion:
+      "Niveles o 'órbitas' de la conciencia que Grinberg describe en La Teoría Sintérgica, asociados a distintos grados de sintergia y de interacción entre el campo neuronal y la Lattice.",
+  },
+  {
+    slug: "factor-direccionalidad",
+    nombre: "Factor de direccionalidad",
+    definicion:
+      "Factor que, según la Teoría Sintérgica, orienta la interacción entre el campo neuronal y la Lattice, contribuyendo a que la experiencia se organice en una dirección determinada.",
+  },
+  {
+    slug: "neuroalgoritmizacion",
+    nombre: "Neuroalgoritmización",
+    definicion:
+      "Capacidad del cerebro de procesar y 'algoritmizar' la información del campo neuronal. De ella depende el grado de sintergia que un cerebro puede alcanzar al interactuar con la Lattice.",
+  },
 ];
 
 // Helpers

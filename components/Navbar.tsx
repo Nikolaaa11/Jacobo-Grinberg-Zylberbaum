@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Leaf, Menu, X, Sparkles } from "lucide-react";
 
 const NAV = [
+  { href: "/rutas", label: "Rutas" },
   { href: "/biblioteca", label: "Biblioteca" },
   { href: "/ensenanzas", label: "Enseñanzas" },
   { href: "/tecnicas", label: "Técnicas" },

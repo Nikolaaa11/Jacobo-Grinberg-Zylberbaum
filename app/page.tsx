@@ -6,8 +6,10 @@ import {
   Brain,
   ArrowRight,
   Layers,
+  Route,
 } from "lucide-react";
 import { LIBROS, TEMAS, CONCEPTOS, type TemaId } from "@/data/libros";
+import { RUTAS } from "@/data/rutas";
 import { SectionReveal } from "@/components/SectionReveal";
 import { BookCard } from "@/components/BookCard";
 
@@ -75,9 +77,12 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
             {[
               { n: `${LIBROS.length}`, l: "Libros" },
-              { n: "6", l: "Temas" },
+              { n: `${RUTAS.length}`, l: "Rutas de lectura" },
               { n: `${CONCEPTOS.length}`, l: "Conceptos clave" },
-              { n: "1", l: "Asistente IA" },
+              {
+                n: LIBROS.reduce((a, l) => a + (l.paginas || 0), 0).toLocaleString("es"),
+                l: "Páginas",
+              },
             ].map((s) => (
               <div key={s.l} className="card p-6 text-center">
                 <div className="text-3xl font-bold tracking-tightish text-verde-deep">
@@ -88,6 +93,55 @@ export default function Home() {
             ))}
           </div>
         </SectionReveal>
+      </section>
+
+      {/* EMPEZAR AQUÍ — RUTAS */}
+      <section className="mx-auto max-w-page px-5 pt-20">
+        <SectionReveal>
+          <div className="flex items-end justify-between">
+            <div>
+              <span className="tag mb-3">
+                <Route className="mr-1.5 h-3.5 w-3.5" /> Empezar aquí
+              </span>
+              <h2 className="text-2xl font-bold tracking-tightish text-ink md:text-3xl">
+                Rutas de lectura guiadas
+              </h2>
+              <p className="mt-2 max-w-2xl text-subtle">
+                ¿No sabes por dónde empezar? Sigue un recorrido ordenado por la
+                obra.
+              </p>
+            </div>
+            <Link
+              href="/rutas"
+              className="hidden items-center gap-1 text-sm font-medium text-verde-deep hover:underline sm:inline-flex"
+            >
+              Ver todas <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+        </SectionReveal>
+        <div className="mt-8 grid gap-4 md:grid-cols-3">
+          {RUTAS.slice(0, 3).map((ruta, i) => (
+            <SectionReveal key={ruta.slug} delay={i * 0.05}>
+              <Link
+                href={`/ruta/${ruta.slug}`}
+                className="card card-hover flex h-full flex-col p-6"
+              >
+                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-verde-mint text-verde-deep">
+                  <Route className="h-5 w-5" />
+                </span>
+                <h3 className="mt-4 text-lg font-semibold tracking-tightish text-ink">
+                  {ruta.titulo}
+                </h3>
+                <p className="mt-1.5 flex-1 text-sm leading-relaxed text-subtle">
+                  {ruta.lema}
+                </p>
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-verde-deep">
+                  {ruta.libros.length} libros <ArrowRight className="h-4 w-4" />
+                </span>
+              </Link>
+            </SectionReveal>
+          ))}
+        </div>
       </section>
 
       {/* TEMAS */}
