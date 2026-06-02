@@ -10,6 +10,7 @@ import {
   Play,
   AlertTriangle,
   Compass,
+  HelpCircle,
 } from "lucide-react";
 import { getLibro, getConcepto } from "@/data/libros";
 import { BookCover } from "@/components/BookCover";
@@ -90,6 +91,29 @@ const PASOS = [
   {
     t: "Estabiliza y regresa con suavidad",
     d: "Explora con calma. Para volver, reorienta la atención al cuerpo físico y muévelo poco a poco. Regresa siempre despacio.",
+  },
+];
+
+const FAQ = [
+  {
+    q: "¿Es peligroso?",
+    a: "En el marco de Grinberg es una experiencia perceptual, no un riesgo físico. El principal obstáculo es el miedo, que tiende a cerrar el proceso. Practica con calma y regresa siempre con suavidad al cuerpo.",
+  },
+  {
+    q: "¿Cuánto tardaré en lograrlo?",
+    a: "Varía mucho de una persona a otra. Importa más la constancia, la relajación y soltar la expectativa que la intensidad. Puede requerir muchas sesiones; cada práctica ya aumenta tu coherencia (sintergia).",
+  },
+  {
+    q: "¿Es lo mismo que un sueño lúcido?",
+    a: "Están emparentados pero no son idénticos. El sueño lúcido ocurre dentro del sueño; el 'doble' se describe como percibir desde un punto situado fuera del cuerpo, sosteniendo la lucidez en el umbral de la vigilia.",
+  },
+  {
+    q: "¿Necesito creer en algo?",
+    a: "No. Grinberg lo aborda desde la neurofisiología y la Teoría Sintérgica, no desde un dogma. Basta explorar con apertura y honestidad la propia experiencia.",
+  },
+  {
+    q: "¿Qué papel juega el 'yo'?",
+    a: "La identificación con el yo y con el esquema corporal es el principal freno. Al reconocer que el yo es una idea y soltar esa autorreferencia (estados de no-ego), el punto desde el que percibes puede aflojarse y desplazarse.",
   },
 ];
 
@@ -288,6 +312,33 @@ export default function ViajeAstralPage() {
                 </li>
               ))}
             </ul>
+          </div>
+        </SectionReveal>
+      </section>
+
+      {/* FAQ */}
+      <section className="mt-16">
+        <SectionReveal>
+          <h2 className="flex items-center gap-2 text-2xl font-bold tracking-tightish text-ink md:text-3xl">
+            <HelpCircle className="h-6 w-6 text-verde" /> Preguntas frecuentes
+          </h2>
+          <div className="mt-6 space-y-3">
+            {FAQ.map((f, i) => (
+              <details
+                key={i}
+                className="card group p-5 [&_summary::-webkit-details-marker]:hidden"
+              >
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-base font-semibold text-ink">
+                  {f.q}
+                  <span className="flex h-7 w-7 flex-none items-center justify-center rounded-full bg-verde-mint text-verde-deep transition-transform group-open:rotate-45">
+                    +
+                  </span>
+                </summary>
+                <p className="mt-3 text-[15px] leading-relaxed text-ink/80">
+                  {f.a}
+                </p>
+              </details>
+            ))}
           </div>
         </SectionReveal>
       </section>

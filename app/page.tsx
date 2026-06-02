@@ -69,6 +69,16 @@ export default function Home() {
               </Link>
             </div>
           </SectionReveal>
+          <SectionReveal delay={0.2}>
+            <Link
+              href="/viaje-astral"
+              className="group mx-auto mt-6 inline-flex items-center gap-2 rounded-full border border-verde/30 bg-white/70 px-4 py-2 text-sm font-medium text-ink shadow-sm backdrop-blur transition hover:border-verde hover:shadow-apple"
+            >
+              <Moon className="h-4 w-4 text-verde-deep" />
+              Nuevo: ¿Cómo puedo pasar mi cuerpo a astral?
+              <ArrowRight className="h-4 w-4 text-verde-deep transition-transform group-hover:translate-x-0.5" />
+            </Link>
+          </SectionReveal>
         </div>
       </section>
 
