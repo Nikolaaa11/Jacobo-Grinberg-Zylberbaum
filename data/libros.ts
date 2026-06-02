@@ -31,6 +31,7 @@ export type Libro = {
   ensenanzas: string[];
   tecnicas: Tecnica[];
   conceptos: string[];
+  paginas?: number;
 };
 
 export const LIBROS = catalogo as Libro[];

@@ -70,7 +70,26 @@ export default function LibroPage({ params }: { params: { slug: string } }) {
           {libro.subtitulo ? (
             <p className="mt-1 text-xl text-subtle">{libro.subtitulo}</p>
           ) : null}
-          <p className="mt-1 text-sm text-subtle">{libro.anio}</p>
+          <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-subtle">
+            <span>{libro.anio}</span>
+            {libro.paginas ? (
+              <>
+                <span aria-hidden>·</span>
+                <span>{libro.paginas} páginas</span>
+              </>
+            ) : null}
+            <span aria-hidden>·</span>
+            <span>{libro.ensenanzas.length} enseñanzas</span>
+            {libro.tecnicas.length > 0 ? (
+              <>
+                <span aria-hidden>·</span>
+                <span>
+                  {libro.tecnicas.length}{" "}
+                  {libro.tecnicas.length === 1 ? "técnica" : "técnicas"}
+                </span>
+              </>
+            ) : null}
+          </div>
           <p className="mt-5 text-[17px] leading-relaxed text-ink/85">
             {libro.resumen}
           </p>

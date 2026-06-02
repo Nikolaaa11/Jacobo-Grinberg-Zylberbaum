@@ -5,7 +5,10 @@
     "titulo": "El Cerebro Consciente",
     "subtitulo": "y el Campo Unificado",
     "anio": 1979,
-    "temas": ["sintergia", "percepcion"],
+    "temas": [
+      "sintergia",
+      "percepcion"
+    ],
     "pdf": "1- El cerebro consciente.pdf",
     "resumen": "Obra fundacional donde Grinberg articula la idea de que la conciencia no es un producto aislado del cerebro, sino el resultado de la interacción entre la actividad neuronal y un campo informacional que subyace a toda la realidad. Aquí se siembran las semillas de lo que después llamará Teoría Sintérgica: el cerebro como un órgano que sintoniza y distorsiona una estructura unificada preexistente.",
     "ensenanzas": [
@@ -14,8 +17,26 @@
       "El cerebro humano puede aumentar su coherencia (sintergia) y, al hacerlo, percibir la unidad subyacente.",
       "La separación entre observador y observado es una construcción, no un hecho absoluto."
     ],
-    "tecnicas": [],
-    "conceptos": ["campo-neuronal", "teoria-sintergica", "percepcion-realidad", "experiencia-unitaria"]
+    "tecnicas": [
+      {
+        "nombre": "Atención al observador",
+        "duracion": "15 min",
+        "nivel": "Intermedio",
+        "pasos": [
+          "Observa cualquier objeto de tu experiencia (un sonido, una sensación).",
+          "Ahora vuelve la atención hacia aquello que observa.",
+          "Nota que el observador no es otro objeto, sino la conciencia misma.",
+          "Descansa reconociendo que percibir y ser consciente son un mismo acto."
+        ]
+      }
+    ],
+    "conceptos": [
+      "campo-neuronal",
+      "teoria-sintergica",
+      "percepcion-realidad",
+      "experiencia-unitaria"
+    ],
+    "paginas": 84
   },
   {
     "id": 2,
@@ -23,7 +44,9 @@
     "titulo": "El Yo como Idea",
     "subtitulo": "",
     "anio": 1994,
-    "temas": ["conciencia-yo"],
+    "temas": [
+      "conciencia-yo"
+    ],
     "pdf": "2 - El yo como idea.pdf",
     "resumen": "Grinberg sostiene que el 'yo' no es una entidad sustancial sino una idea, un hábito perceptual que el cerebro construye y sostiene momento a momento. Al comprender experiencialmente que el yo es una construcción, se abre la posibilidad de estados de conciencia más amplios y libres del sufrimiento ligado a la identificación.",
     "ensenanzas": [
@@ -45,7 +68,12 @@
         ]
       }
     ],
-    "conceptos": ["yo-como-idea", "no-ego", "percepcion-realidad"]
+    "conceptos": [
+      "yo-como-idea",
+      "no-ego",
+      "percepcion-realidad"
+    ],
+    "paginas": 267
   },
   {
     "id": 3,
@@ -53,7 +81,10 @@
     "titulo": "Fluir Sin el Yo",
     "subtitulo": "",
     "anio": 1991,
-    "temas": ["meditacion", "conciencia-yo"],
+    "temas": [
+      "meditacion",
+      "conciencia-yo"
+    ],
     "pdf": "3 -Fluir sin el yo.pdf",
     "resumen": "Exploración de los estados de no-ego: momentos en que la actividad mental se aquieta y la experiencia fluye sin un centro que se apropie de ella. Grinberg describe cómo acceder a ese fluir y por qué representa un estado de mayor sintergia y libertad.",
     "ensenanzas": [
@@ -75,7 +106,12 @@
         ]
       }
     ],
-    "conceptos": ["no-ego", "yo-como-idea", "experiencia-unitaria"]
+    "conceptos": [
+      "no-ego",
+      "yo-como-idea",
+      "experiencia-unitaria"
+    ],
+    "paginas": 96
   },
   {
     "id": 4,
@@ -83,7 +119,10 @@
     "titulo": "La Conquista del Templo",
     "subtitulo": "",
     "anio": 1990,
-    "temas": ["meditacion", "poesia-mistica"],
+    "temas": [
+      "meditacion",
+      "poesia-mistica"
+    ],
     "pdf": "4- La Conquista del Templo.pdf",
     "resumen": "Relato del camino interior hacia el 'templo' —metáfora del centro sagrado de la conciencia—. Combina enseñanza contemplativa y narrativa iniciática sobre el trabajo de purificación y atención necesario para acceder a estados profundos del ser.",
     "ensenanzas": [
@@ -104,7 +143,11 @@
         ]
       }
     ],
-    "conceptos": ["experiencia-unitaria", "no-ego"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "no-ego"
+    ],
+    "paginas": 364
   },
   {
     "id": 5,
@@ -112,7 +155,10 @@
     "titulo": "La Construcción de la Realidad",
     "subtitulo": "",
     "anio": 1975,
-    "temas": ["sintergia", "percepcion"],
+    "temas": [
+      "sintergia",
+      "percepcion"
+    ],
     "pdf": "5- La Construcción de la Realidad.pdf",
     "resumen": "Una de sus obras tempranas clave: argumenta que la realidad que percibimos es activamente construida por el cerebro a partir de una estructura informacional fundamental. La percepción no copia el mundo: lo interpreta y lo organiza según la coherencia del sistema perceptual.",
     "ensenanzas": [
@@ -121,8 +167,26 @@
       "Distintos niveles de sintergia producen distintas realidades percibidas.",
       "Cambiar la percepción cambia, en sentido práctico, el mundo vivido."
     ],
-    "tecnicas": [],
-    "conceptos": ["percepcion-realidad", "estructura-primaria", "lattice", "teoria-sintergica"]
+    "tecnicas": [
+      {
+        "nombre": "Observar la construcción de lo real",
+        "duracion": "12 min",
+        "nivel": "Inicial",
+        "pasos": [
+          "Mira un objeto cotidiano como si lo vieras por primera vez.",
+          "Separa la sensación pura (color, forma, textura) de la interpretación (“esto es una taza”).",
+          "Nota el instante exacto en que la mente nombra y clasifica.",
+          "Reconoce que la “realidad” del objeto incluye tu propia construcción."
+        ]
+      }
+    ],
+    "conceptos": [
+      "percepcion-realidad",
+      "estructura-primaria",
+      "lattice",
+      "teoria-sintergica"
+    ],
+    "paginas": 106
   },
   {
     "id": 6,
@@ -130,7 +194,9 @@
     "titulo": "La Experiencia Interna",
     "subtitulo": "",
     "anio": 1975,
-    "temas": ["conciencia-yo"],
+    "temas": [
+      "conciencia-yo"
+    ],
     "pdf": "6- La Experiencia Interna.pdf",
     "resumen": "Estudio sobre la naturaleza de la vivencia subjetiva: qué es la experiencia interna, cómo se estructura y cómo se relaciona con los procesos cerebrales. Grinberg busca un puente riguroso entre la neurofisiología y el mundo vivido de la conciencia.",
     "ensenanzas": [
@@ -151,7 +217,11 @@
         ]
       }
     ],
-    "conceptos": ["percepcion-realidad", "experiencia-unitaria"]
+    "conceptos": [
+      "percepcion-realidad",
+      "experiencia-unitaria"
+    ],
+    "paginas": 105
   },
   {
     "id": 7,
@@ -159,7 +229,9 @@
     "titulo": "La Luz Angelmática",
     "subtitulo": "",
     "anio": 1983,
-    "temas": ["poesia-mistica"],
+    "temas": [
+      "poesia-mistica"
+    ],
     "pdf": "7- La Luz Angelmática.pdf",
     "resumen": "Obra de carácter poético-místico donde Grinberg explora, con lenguaje luminoso, la experiencia de la luz interior y los estados de revelación. Más que tratado teórico, es una evocación de la vivencia de lo sagrado.",
     "ensenanzas": [
@@ -168,7 +240,11 @@
       "La belleza es una vía de acceso a la experiencia unitaria."
     ],
     "tecnicas": [],
-    "conceptos": ["experiencia-unitaria", "percepcion-realidad"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "percepcion-realidad"
+    ],
+    "paginas": 176
   },
   {
     "id": 8,
@@ -176,7 +252,9 @@
     "titulo": "La Meditación",
     "subtitulo": "",
     "anio": 1991,
-    "temas": ["meditacion"],
+    "temas": [
+      "meditacion"
+    ],
     "pdf": "8- La Meditación.pdf",
     "resumen": "Tratado práctico y teórico sobre la meditación: qué ocurre en el cerebro y en la conciencia al meditar, y cómo la práctica aumenta la sintergia, reduce la distorsión perceptual y acerca a la experiencia unitaria.",
     "ensenanzas": [
@@ -198,7 +276,12 @@
         ]
       }
     ],
-    "conceptos": ["teoria-sintergica", "no-ego", "experiencia-unitaria"]
+    "conceptos": [
+      "teoria-sintergica",
+      "no-ego",
+      "experiencia-unitaria"
+    ],
+    "paginas": 159
   },
   {
     "id": 9,
@@ -206,7 +289,9 @@
     "titulo": "La Teoría Sintérgica",
     "subtitulo": "",
     "anio": 1991,
-    "temas": ["sintergia"],
+    "temas": [
+      "sintergia"
+    ],
     "pdf": "9- La Teoría Sintégica.pdf",
     "resumen": "Exposición central del sistema de pensamiento de Grinberg. La Teoría Sintérgica propone que existe una estructura fundamental no espacial (el 'lattice') de la cual el cerebro extrae, mediante su campo neuronal, la realidad percibida. La conciencia y la unidad surgen al aumentar la 'sintergia' (síntesis + energía: orden y coherencia).",
     "ensenanzas": [
@@ -216,8 +301,28 @@
       "La realidad cotidiana es una 'des-sintergización' del lattice unitario.",
       "La experiencia mística es la percepción directa del lattice con mínima distorsión."
     ],
-    "tecnicas": [],
-    "conceptos": ["teoria-sintergica", "lattice", "campo-neuronal", "sintergia", "estructura-primaria", "experiencia-unitaria"]
+    "tecnicas": [
+      {
+        "nombre": "Cultivo de la sintergia",
+        "duracion": "20 min",
+        "nivel": "Avanzado",
+        "pasos": [
+          "Aquieta el cuerpo y la respiración hasta sentir una coherencia interna.",
+          "Suelta la actividad mental dispersa y unifica la atención en un solo campo.",
+          "Percibe la experiencia presente como un todo, sin fragmentarla en partes.",
+          "Permanece en esa coherencia creciente: estás aumentando tu sintergia."
+        ]
+      }
+    ],
+    "conceptos": [
+      "teoria-sintergica",
+      "lattice",
+      "campo-neuronal",
+      "sintergia",
+      "estructura-primaria",
+      "experiencia-unitaria"
+    ],
+    "paginas": 49
   },
   {
     "id": 10,
@@ -225,7 +330,10 @@
     "titulo": "Las Creaciones de la Existencia",
     "subtitulo": "",
     "anio": 1976,
-    "temas": ["conciencia-yo", "sintergia"],
+    "temas": [
+      "conciencia-yo",
+      "sintergia"
+    ],
     "pdf": "10- Las Creaciones de la Existencia.pdf",
     "resumen": "Reflexión sobre cómo la conciencia 'crea' los mundos que habita. Cada ser, según su nivel de sintergia y sus estructuras perceptuales, da lugar a una existencia particular. La obra conecta la fenomenología de la experiencia con la teoría del campo.",
     "ensenanzas": [
@@ -234,7 +342,12 @@
       "Transformar la conciencia transforma el mundo creado."
     ],
     "tecnicas": [],
-    "conceptos": ["percepcion-realidad", "estructura-primaria", "teoria-sintergica"]
+    "conceptos": [
+      "percepcion-realidad",
+      "estructura-primaria",
+      "teoria-sintergica"
+    ],
+    "paginas": 113
   },
   {
     "id": 11,
@@ -242,7 +355,9 @@
     "titulo": "Los Chamanes de México III",
     "subtitulo": "Pachita",
     "anio": 1989,
-    "temas": ["chamanismo"],
+    "temas": [
+      "chamanismo"
+    ],
     "pdf": "11- Los chamanes de México - Vol 3 - Pachita.pdf",
     "resumen": "Dedicado a Pachita (Bárbara Guerrero), la célebre curandera mexicana cuyas 'cirugías psíquicas' Grinberg estudió de cerca. Describe sus métodos, el papel del 'Hermanito' (la entidad que decía encarnar) y el desafío que sus fenómenos planteaban a la ciencia ortodoxa.",
     "ensenanzas": [
@@ -252,7 +367,12 @@
       "Los fenómenos de Pachita exigen ampliar el marco científico, no negarlos de antemano."
     ],
     "tecnicas": [],
-    "conceptos": ["pachita", "percepcion-realidad", "comunicacion-sintergica"]
+    "conceptos": [
+      "pachita",
+      "percepcion-realidad",
+      "comunicacion-sintergica"
+    ],
+    "paginas": 140
   },
   {
     "id": 12,
@@ -260,7 +380,9 @@
     "titulo": "Más Allá de los Lenguajes",
     "subtitulo": "",
     "anio": 1976,
-    "temas": ["percepcion"],
+    "temas": [
+      "percepcion"
+    ],
     "pdf": "12- Más Allá de los Lenguajes.pdf",
     "resumen": "Estudio sobre cómo el lenguaje estructura —y limita— la percepción y la experiencia. Grinberg apunta hacia una vivencia 'más allá de los lenguajes', anterior a la conceptualización, donde la realidad se capta de modo directo.",
     "ensenanzas": [
@@ -281,7 +403,12 @@
         ]
       }
     ],
-    "conceptos": ["percepcion-realidad", "estructura-primaria", "experiencia-unitaria"]
+    "conceptos": [
+      "percepcion-realidad",
+      "estructura-primaria",
+      "experiencia-unitaria"
+    ],
+    "paginas": 146
   },
   {
     "id": 13,
@@ -289,7 +416,9 @@
     "titulo": "Meditación Auto-alusiva",
     "subtitulo": "",
     "anio": 1987,
-    "temas": ["meditacion"],
+    "temas": [
+      "meditacion"
+    ],
     "pdf": "13- Meditación Auto-alusiva.pdf",
     "resumen": "Presenta la meditación auto-alusiva: una práctica en la que la conciencia se vuelve sobre sí misma, observándose como observadora. Esta reflexividad disuelve la dualidad sujeto-objeto y aproxima a la experiencia unitaria.",
     "ensenanzas": [
@@ -312,7 +441,12 @@
         ]
       }
     ],
-    "conceptos": ["experiencia-unitaria", "no-ego", "yo-como-idea"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "no-ego",
+      "yo-como-idea"
+    ],
+    "paginas": 56
   },
   {
     "id": 14,
@@ -320,7 +454,10 @@
     "titulo": "El Espacio y la Conciencia",
     "subtitulo": "",
     "anio": 1981,
-    "temas": ["sintergia", "percepcion"],
+    "temas": [
+      "sintergia",
+      "percepcion"
+    ],
     "pdf": "14- El espacio y la conciencia.pdf",
     "resumen": "Indaga la relación entre el espacio físico y el espacio de la conciencia. Grinberg propone que el espacio que percibimos no es el contenedor absoluto de la física clásica, sino una construcción derivada de la interacción cerebro–lattice.",
     "ensenanzas": [
@@ -328,8 +465,26 @@
       "Conciencia y espacio están entrelazados en la estructura sintérgica.",
       "Modificar la conciencia modifica la experiencia del espacio."
     ],
-    "tecnicas": [],
-    "conceptos": ["teoria-sintergica", "lattice", "estructura-primaria", "percepcion-realidad"]
+    "tecnicas": [
+      {
+        "nombre": "Expansión del espacio interior",
+        "duracion": "15 min",
+        "nivel": "Intermedio",
+        "pasos": [
+          "Cierra los ojos y siente el volumen de espacio dentro de tu cabeza.",
+          "Deja que esa sensación de espacio se expanda más allá de los límites del cuerpo.",
+          "Disuelve la frontera entre el “espacio interno” y el “espacio externo”.",
+          "Reposa en la amplitud resultante, sin centro ni borde."
+        ]
+      }
+    ],
+    "conceptos": [
+      "teoria-sintergica",
+      "lattice",
+      "estructura-primaria",
+      "percepcion-realidad"
+    ],
+    "paginas": 242
   },
   {
     "id": 15,
@@ -337,7 +492,10 @@
     "titulo": "La Fuerza Vital del Cielo Anterior",
     "subtitulo": "",
     "anio": 1991,
-    "temas": ["poesia-mistica", "meditacion"],
+    "temas": [
+      "poesia-mistica",
+      "meditacion"
+    ],
     "pdf": "15- La fuerza vital del cielo anterior.pdf",
     "resumen": "Inspirado en nociones taoístas (el 'cielo anterior', estado original anterior a la manifestación), explora la energía vital primordial y cómo cultivarla. Une la sensibilidad mística oriental con el marco sintérgico de Grinberg.",
     "ensenanzas": [
@@ -358,7 +516,11 @@
         ]
       }
     ],
-    "conceptos": ["experiencia-unitaria", "campo-neuronal"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "campo-neuronal"
+    ],
+    "paginas": 102
   },
   {
     "id": 16,
@@ -366,7 +528,10 @@
     "titulo": "Retorno a la Luz",
     "subtitulo": "",
     "anio": 1987,
-    "temas": ["meditacion", "poesia-mistica"],
+    "temas": [
+      "meditacion",
+      "poesia-mistica"
+    ],
     "pdf": "16- Retorno a la luz..pdf",
     "resumen": "Obra contemplativa sobre el 'retorno' a la luz original de la conciencia: el reconocimiento de nuestra naturaleza luminosa más allá de las identificaciones. Combina enseñanza meditativa y tono inspiracional.",
     "ensenanzas": [
@@ -387,7 +552,11 @@
         ]
       }
     ],
-    "conceptos": ["experiencia-unitaria", "no-ego"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "no-ego"
+    ],
+    "paginas": 199
   },
   {
     "id": 17,
@@ -395,7 +564,10 @@
     "titulo": "El Sabor de la Iluminación",
     "subtitulo": "",
     "anio": 1994,
-    "temas": ["meditacion", "poesia-mistica"],
+    "temas": [
+      "meditacion",
+      "poesia-mistica"
+    ],
     "pdf": "17- Sabor de la Iluminación..pdf",
     "resumen": "Aproximación a la experiencia de la iluminación no como meta lejana sino como un 'sabor' accesible: instantes de unidad, claridad y presencia plena. Grinberg describe sus características y cómo reconocerlos en la vida cotidiana.",
     "ensenanzas": [
@@ -416,7 +588,11 @@
         ]
       }
     ],
-    "conceptos": ["experiencia-unitaria", "no-ego"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "no-ego"
+    ],
+    "paginas": 101
   },
   {
     "id": 18,
@@ -424,7 +600,9 @@
     "titulo": "Visión Extra-Ocular",
     "subtitulo": "",
     "anio": 1983,
-    "temas": ["percepcion"],
+    "temas": [
+      "percepcion"
+    ],
     "pdf": "18- Visión Extra-Ocular.pdf",
     "resumen": "Investigación sobre la 'visión extra-ocular': la capacidad —reportada en ciertos sujetos— de percibir formas o colores sin usar los ojos. Grinberg la aborda como evidencia de que la percepción no depende exclusivamente de los órganos sensoriales, sino de la interacción con el campo.",
     "ensenanzas": [
@@ -433,7 +611,12 @@
       "Las capacidades perceptuales son entrenables y más amplias de lo que se supone."
     ],
     "tecnicas": [],
-    "conceptos": ["percepcion-realidad", "campo-neuronal", "comunicacion-sintergica"]
+    "conceptos": [
+      "percepcion-realidad",
+      "campo-neuronal",
+      "comunicacion-sintergica"
+    ],
+    "paginas": 14
   },
   {
     "id": 19,
@@ -441,7 +624,9 @@
     "titulo": "Cantos de Ignorancia Iluminada",
     "subtitulo": "",
     "anio": 1988,
-    "temas": ["poesia-mistica"],
+    "temas": [
+      "poesia-mistica"
+    ],
     "pdf": "19- Cantos de ignorancia iluminada.pdf",
     "resumen": "Conjunto de textos poético-aforísticos. El título evoca la 'docta ignorancia' mística: el saber que reconoce los límites del conocimiento conceptual y se abre al misterio. Cantos para señalar lo inefable.",
     "ensenanzas": [
@@ -450,7 +635,11 @@
       "Reconocer la propia ignorancia ilumina."
     ],
     "tecnicas": [],
-    "conceptos": ["experiencia-unitaria", "yo-como-idea"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "yo-como-idea"
+    ],
+    "paginas": 125
   },
   {
     "id": 20,
@@ -458,7 +647,10 @@
     "titulo": "El Potencial Transferido",
     "subtitulo": "",
     "anio": 1987,
-    "temas": ["percepcion", "sintergia"],
+    "temas": [
+      "percepcion",
+      "sintergia"
+    ],
     "pdf": "20- El Potencial Transferido..pdf",
     "resumen": "Presenta su experimento más famoso: dos personas que han interactuado se aíslan en jaulas de Faraday separadas; al estimular a una, en el EEG de la otra aparece un 'potencial transferido' correlacionado, sin contacto físico. Grinberg lo interpreta como evidencia de comunicación a través del campo y base empírica de la Teoría Sintérgica.",
     "ensenanzas": [
@@ -468,7 +660,13 @@
       "La empatía y la intención previas favorecen la aparición del fenómeno."
     ],
     "tecnicas": [],
-    "conceptos": ["comunicacion-sintergica", "campo-neuronal", "lattice", "teoria-sintergica"]
+    "conceptos": [
+      "comunicacion-sintergica",
+      "campo-neuronal",
+      "lattice",
+      "teoria-sintergica"
+    ],
+    "paginas": 31
   },
   {
     "id": 21,
@@ -476,7 +674,9 @@
     "titulo": "Los Cristales de la Galaxia",
     "subtitulo": "",
     "anio": 1994,
-    "temas": ["poesia-mistica"],
+    "temas": [
+      "poesia-mistica"
+    ],
     "pdf": "21- Los cristales de la galaxia.pdf",
     "resumen": "Obra de imaginación visionaria y tono cósmico, donde Grinberg despliega un lenguaje simbólico para hablar de la conciencia, el universo y la unidad. Los 'cristales' operan como metáfora de estructuras de orden y luz.",
     "ensenanzas": [
@@ -485,7 +685,12 @@
       "Lo micro y lo macro reflejan la misma estructura unitaria."
     ],
     "tecnicas": [],
-    "conceptos": ["lattice", "experiencia-unitaria", "estructura-primaria"]
+    "conceptos": [
+      "lattice",
+      "experiencia-unitaria",
+      "estructura-primaria"
+    ],
+    "paginas": 201
   },
   {
     "id": 22,
@@ -493,7 +698,10 @@
     "titulo": "Correlativos Electrofisiológicos de la Comunicación Humana",
     "subtitulo": "Tesis Doctoral",
     "anio": 1987,
-    "temas": ["percepcion", "sintergia"],
+    "temas": [
+      "percepcion",
+      "sintergia"
+    ],
     "pdf": "22- Correlativos Electrofisiológicos De La Comunicación Humana. (Tesis Doctoral).pdf",
     "resumen": "Tesis doctoral con el sustento experimental y electrofisiológico (EEG) de sus investigaciones sobre comunicación humana y potencial transferido. Documenta metodología, registros y análisis que buscan dar base científica a la correlación interna entre cerebros.",
     "ensenanzas": [
@@ -502,7 +710,12 @@
       "Los datos sugieren correlaciones que el marco neurofisiológico clásico no explica del todo."
     ],
     "tecnicas": [],
-    "conceptos": ["comunicacion-sintergica", "campo-neuronal", "teoria-sintergica"]
+    "conceptos": [
+      "comunicacion-sintergica",
+      "campo-neuronal",
+      "teoria-sintergica"
+    ],
+    "paginas": 129
   },
   {
     "id": 23,
@@ -510,7 +723,10 @@
     "titulo": "El Prototipo",
     "subtitulo": "",
     "anio": 1991,
-    "temas": ["poesia-mistica", "conciencia-yo"],
+    "temas": [
+      "poesia-mistica",
+      "conciencia-yo"
+    ],
     "pdf": "23- El prototipo.pdf",
     "resumen": "Reflexión sobre el 'prototipo': un modelo o patrón original del ser humano realizado, hacia el cual apunta el desarrollo de la conciencia. Mezcla enseñanza evolutiva del ser con tono visionario.",
     "ensenanzas": [
@@ -519,7 +735,11 @@
       "La transformación personal tiene una dirección y un sentido."
     ],
     "tecnicas": [],
-    "conceptos": ["experiencia-unitaria", "yo-como-idea"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "yo-como-idea"
+    ],
+    "paginas": 81
   },
   {
     "id": 24,
@@ -527,7 +747,10 @@
     "titulo": "Psicofisiología del Poder",
     "subtitulo": "",
     "anio": 1988,
-    "temas": ["chamanismo", "percepcion"],
+    "temas": [
+      "chamanismo",
+      "percepcion"
+    ],
     "pdf": "24- Psicofisiología del poder.pdf",
     "resumen": "Analiza el 'poder' en sentido chamánico y psicofisiológico: la capacidad de actuar sobre la realidad percibida desde estados especiales de conciencia. Conecta las prácticas de los chamanes con mecanismos del cerebro y del campo.",
     "ensenanzas": [
@@ -536,7 +759,13 @@
       "Poder y responsabilidad ética son inseparables en la tradición chamánica."
     ],
     "tecnicas": [],
-    "conceptos": ["campo-neuronal", "percepcion-realidad", "comunicacion-sintergica", "pachita"]
+    "conceptos": [
+      "campo-neuronal",
+      "percepcion-realidad",
+      "comunicacion-sintergica",
+      "pachita"
+    ],
+    "paginas": 80
   },
   {
     "id": 25,
@@ -544,7 +773,10 @@
     "titulo": "En Busca del Ser",
     "subtitulo": "",
     "anio": 1987,
-    "temas": ["conciencia-yo", "meditacion"],
+    "temas": [
+      "conciencia-yo",
+      "meditacion"
+    ],
     "pdf": "25- En busca del ser.pdf",
     "resumen": "Indagación existencial y contemplativa sobre la pregunta '¿quién soy?'. Guía al lector en la búsqueda del Ser auténtico más allá de las máscaras del yo construido.",
     "ensenanzas": [
@@ -565,7 +797,12 @@
         ]
       }
     ],
-    "conceptos": ["yo-como-idea", "no-ego", "experiencia-unitaria"]
+    "conceptos": [
+      "yo-como-idea",
+      "no-ego",
+      "experiencia-unitaria"
+    ],
+    "paginas": 257
   },
   {
     "id": 26,
@@ -573,7 +810,10 @@
     "titulo": "El Vehículo de las Transformaciones",
     "subtitulo": "",
     "anio": 1976,
-    "temas": ["poesia-mistica", "conciencia-yo"],
+    "temas": [
+      "poesia-mistica",
+      "conciencia-yo"
+    ],
     "pdf": "26- El vehículo de las transformaciones.pdf",
     "resumen": "Explora el cuerpo-mente como 'vehículo' a través del cual la conciencia se transforma y evoluciona. Une enseñanza sobre el cambio interior con una visión del ser humano en proceso.",
     "ensenanzas": [
@@ -582,7 +822,11 @@
       "Cuidar el vehículo (cuerpo-mente) sostiene el desarrollo interior."
     ],
     "tecnicas": [],
-    "conceptos": ["experiencia-unitaria", "yo-como-idea"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "yo-como-idea"
+    ],
+    "paginas": 52
   },
   {
     "id": 27,
@@ -590,7 +834,10 @@
     "titulo": "Los Fundamentos de la Experiencia",
     "subtitulo": "",
     "anio": 1978,
-    "temas": ["sintergia", "percepcion"],
+    "temas": [
+      "sintergia",
+      "percepcion"
+    ],
     "pdf": "27- Los fundamentos de la experiencia.pdf",
     "resumen": "Obra teórica que examina las bases sobre las que se erige toda experiencia consciente: percepción, atención, memoria y la interacción con la estructura fundamental de la realidad. Pieza clave para entender el armazón conceptual de la Teoría Sintérgica.",
     "ensenanzas": [
@@ -599,7 +846,13 @@
       "La experiencia consciente es el punto de encuentro entre cerebro y campo."
     ],
     "tecnicas": [],
-    "conceptos": ["teoria-sintergica", "estructura-primaria", "percepcion-realidad", "campo-neuronal"]
+    "conceptos": [
+      "teoria-sintergica",
+      "estructura-primaria",
+      "percepcion-realidad",
+      "campo-neuronal"
+    ],
+    "paginas": 87
   },
   {
     "id": 28,
@@ -607,7 +860,9 @@
     "titulo": "Los Chamanes de México I",
     "subtitulo": "Psicología Autóctona Mexicana",
     "anio": 1987,
-    "temas": ["chamanismo"],
+    "temas": [
+      "chamanismo"
+    ],
     "pdf": "28- Los chamanes de México - Vol 1.pdf",
     "resumen": "Primer volumen de la serie. Presenta una 'psicología autóctona mexicana': el estudio del conocimiento sobre la mente y la conciencia presente en las tradiciones chamánicas de México, tomado en serio como sistema de saber.",
     "ensenanzas": [
@@ -616,7 +871,12 @@
       "Existe un puente posible entre la sabiduría chamánica y la neurociencia."
     ],
     "tecnicas": [],
-    "conceptos": ["pachita", "percepcion-realidad", "campo-neuronal"]
+    "conceptos": [
+      "pachita",
+      "percepcion-realidad",
+      "campo-neuronal"
+    ],
+    "paginas": 174
   },
   {
     "id": 29,
@@ -624,7 +884,9 @@
     "titulo": "Los Chamanes de México II",
     "subtitulo": "Misticismo Indígena",
     "anio": 1987,
-    "temas": ["chamanismo"],
+    "temas": [
+      "chamanismo"
+    ],
     "pdf": "29- Los chamanes de México - Vol 2.pdf",
     "resumen": "Segundo volumen, centrado en el misticismo indígena: las experiencias de unidad, los estados visionarios y la cosmovisión espiritual de los pueblos originarios de México.",
     "ensenanzas": [
@@ -633,7 +895,12 @@
       "La relación sagrada con la naturaleza es parte central de esta cosmovisión."
     ],
     "tecnicas": [],
-    "conceptos": ["experiencia-unitaria", "percepcion-realidad", "pachita"]
+    "conceptos": [
+      "experiencia-unitaria",
+      "percepcion-realidad",
+      "pachita"
+    ],
+    "paginas": 215
   },
   {
     "id": 30,
@@ -641,7 +908,9 @@
     "titulo": "Los Chamanes de México IV",
     "subtitulo": "La Cosmovisión de los Chamanes",
     "anio": 1988,
-    "temas": ["chamanismo"],
+    "temas": [
+      "chamanismo"
+    ],
     "pdf": "30- Los chamanes de México - Vol 4.pdf",
     "resumen": "Cuarto volumen: sistematiza la cosmovisión chamánica —su modelo del mundo, del ser humano, de la energía y de la realidad— y la contrasta con el marco sintérgico de Grinberg.",
     "ensenanzas": [
@@ -650,7 +919,12 @@
       "Comprender su modelo amplía las posibilidades de la percepción."
     ],
     "tecnicas": [],
-    "conceptos": ["lattice", "campo-neuronal", "percepcion-realidad"]
+    "conceptos": [
+      "lattice",
+      "campo-neuronal",
+      "percepcion-realidad"
+    ],
+    "paginas": 336
   },
   {
     "id": 31,
@@ -658,7 +932,10 @@
     "titulo": "Los Chamanes de México V",
     "subtitulo": "El Cerebro y los Chamanes",
     "anio": 1989,
-    "temas": ["chamanismo", "sintergia"],
+    "temas": [
+      "chamanismo",
+      "sintergia"
+    ],
     "pdf": "31- Los chamanes de México - Vol 5.pdf",
     "resumen": "Quinto volumen: el más explícito en tender el puente entre neurociencia y chamanismo. Analiza qué ocurre en el cerebro durante los estados chamánicos y cómo se relacionan con la sintergia y el campo neuronal.",
     "ensenanzas": [
@@ -667,7 +944,13 @@
       "Cerebro y campo se reorganizan en los estados no ordinarios de conciencia."
     ],
     "tecnicas": [],
-    "conceptos": ["teoria-sintergica", "campo-neuronal", "sintergia", "percepcion-realidad"]
+    "conceptos": [
+      "teoria-sintergica",
+      "campo-neuronal",
+      "sintergia",
+      "percepcion-realidad"
+    ],
+    "paginas": 117
   },
   {
     "id": 32,
@@ -675,7 +958,10 @@
     "titulo": "Los Chamanes de México VI",
     "subtitulo": "La Voz del Ver",
     "anio": 1989,
-    "temas": ["chamanismo", "poesia-mistica"],
+    "temas": [
+      "chamanismo",
+      "poesia-mistica"
+    ],
     "pdf": "32- Los chamanes de México - Vol 6.pdf",
     "resumen": "Sexto volumen: dedicado al 'ver' chamánico —la percepción directa de la energía y de la realidad detrás de las formas— y a la voz que transmite ese conocimiento.",
     "ensenanzas": [
@@ -683,8 +969,25 @@
       "Ver es captar la energía y la estructura, no solo las apariencias.",
       "El conocimiento del vidente se transmite por una 'voz' que evoca, no solo informa."
     ],
-    "tecnicas": [],
-    "conceptos": ["percepcion-realidad", "experiencia-unitaria", "campo-neuronal"]
+    "tecnicas": [
+      {
+        "nombre": "Ejercicio del “ver”",
+        "duracion": "15 min",
+        "nivel": "Intermedio",
+        "pasos": [
+          "Sitúate frente a un objeto natural (una planta, una piedra, el cielo).",
+          "Ablanda la mirada y deja de etiquetar lo que ves.",
+          "Pasa de mirar la forma a percibir su presencia, su conjunto vivo.",
+          "Permite que surjan percepciones sutiles sin forzar ni interpretar."
+        ]
+      }
+    ],
+    "conceptos": [
+      "percepcion-realidad",
+      "experiencia-unitaria",
+      "campo-neuronal"
+    ],
+    "paginas": 200
   },
   {
     "id": 33,
@@ -692,7 +995,9 @@
     "titulo": "Los Chamanes de México VII",
     "subtitulo": "El Doble",
     "anio": 1990,
-    "temas": ["chamanismo"],
+    "temas": [
+      "chamanismo"
+    ],
     "pdf": "33- Los chamanes de México - Vol 7.pdf",
     "resumen": "Séptimo volumen: aborda el fenómeno del 'doble' —el cuerpo energético o la capacidad de desdoblamiento— en la tradición chamánica, y lo interpreta a la luz de la comunicación a través del campo.",
     "ensenanzas": [
@@ -701,6 +1006,12 @@
       "Lo que la tradición llama 'doble', la teoría sintérgica lo lee como fenómeno de campo."
     ],
     "tecnicas": [],
-    "conceptos": ["comunicacion-sintergica", "campo-neuronal", "lattice", "percepcion-realidad"]
+    "conceptos": [
+      "comunicacion-sintergica",
+      "campo-neuronal",
+      "lattice",
+      "percepcion-realidad"
+    ],
+    "paginas": 119
   }
 ]
