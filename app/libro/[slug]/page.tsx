@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Lightbulb, Sparkles, Compass, Clock, ChevronRight } from "lucide-react";
+import { Lightbulb, Sparkles, Compass, Clock, ChevronRight, Quote } from "lucide-react";
 import {
   LIBROS,
   TEMAS,
@@ -93,6 +93,20 @@ export default function LibroPage({ params }: { params: { slug: string } }) {
           </Link>
         </div>
       </div>
+
+      {/* Cita destacada */}
+      {libro.cita ? (
+        <figure className="relative mt-12 overflow-hidden rounded-4xl bg-verde-mint/60 p-8 md:p-10">
+          <Quote className="absolute right-6 top-6 h-12 w-12 text-verde/25" />
+          <blockquote className="relative max-w-3xl text-xl font-medium leading-relaxed tracking-tightish text-ink md:text-2xl">
+            “{libro.cita}”
+          </blockquote>
+          <figcaption className="relative mt-4 text-sm text-subtle">
+            — {libro.titulo}
+            {libro.subtitulo ? `: ${libro.subtitulo}` : ""}, Jacobo Grinberg-Zylberbaum
+          </figcaption>
+        </figure>
+      ) : null}
 
       {/* Enseñanzas */}
       <section className="mt-14">
