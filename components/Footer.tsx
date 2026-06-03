@@ -34,6 +34,8 @@ export function Footer() {
               <h4 className="font-semibold text-ink">Más</h4>
               <ul className="mt-3 space-y-2 text-subtle">
                 <li><Link href="/asistente" className="hover:text-ink">Asistente IA</Link></li>
+                <li><Link href="/viaje-astral" className="hover:text-ink">Viaje astral</Link></li>
+                <li><Link href="/cronologia" className="hover:text-ink">Cronología</Link></li>
                 <li><Link href="/sobre-jacobo" className="hover:text-ink">Sobre Jacobo</Link></li>
               </ul>
             </div>

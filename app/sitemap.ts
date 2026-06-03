@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tecnicas",
     "/conceptos",
     "/viaje-astral",
+    "/cronologia",
     "/asistente",
     "/sobre-jacobo",
   ].map((p) => ({

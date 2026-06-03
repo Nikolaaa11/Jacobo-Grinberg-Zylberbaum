@@ -65,9 +65,17 @@ export default function SobreJacoboPage() {
       </SectionReveal>
 
       <SectionReveal delay={0.15}>
-        <h2 className="mt-14 text-2xl font-bold tracking-tightish text-ink">
-          Línea de tiempo
-        </h2>
+        <div className="mt-14 flex flex-wrap items-end justify-between gap-3">
+          <h2 className="text-2xl font-bold tracking-tightish text-ink">
+            Línea de tiempo
+          </h2>
+          <Link
+            href="/cronologia"
+            className="text-sm font-medium text-verde-deep hover:underline"
+          >
+            Ver cronología de sus 33 libros →
+          </Link>
+        </div>
         <div className="mt-6 space-y-4">
           {HITOS.map((h) => (
             <div key={h.a} className="flex gap-4">
