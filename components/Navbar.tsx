@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Leaf, Menu, X, Sparkles } from "lucide-react";
+import { CommandPalette } from "./CommandPalette";
 
 const NAV = [
   { href: "/rutas", label: "Rutas" },
@@ -44,19 +45,23 @@ export function Navbar() {
               </Link>
             );
           })}
-          <Link href="/asistente" className="btn-verde ml-2 px-5 py-2.5">
+          <CommandPalette />
+          <Link href="/asistente" className="btn-verde ml-1 px-5 py-2.5">
             <Sparkles className="h-4 w-4" />
             Preguntar a la IA
           </Link>
         </div>
 
-        <button
-          aria-label="Menú"
-          className="rounded-full p-2 text-ink md:hidden"
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </button>
+        <div className="flex items-center gap-1.5 md:hidden">
+          <CommandPalette />
+          <button
+            aria-label="Menú"
+            className="rounded-full p-2 text-ink"
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
+        </div>
       </nav>
 
       {open && (
